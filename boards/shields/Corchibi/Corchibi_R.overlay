@@ -4,7 +4,8 @@
 #include <input/processors.dtsi>
 
 &default_transform {
-    col-offset = <6>;
+    // テスト用に一時的に無効化。本番環境（左右分割）ではコメントアウトを外してください。
+    // col-offset = <6>;
 };
 
 &kscan0 {
@@ -37,6 +38,9 @@
 &trackball_listener_R {
     status = "okay";
     device = <&trackball_R>;
+    input-processors = 
+        <&zip_temp_gp_speed_scaler 4000 15>,
+        <&zip_xy_scaler 1 1>;
 };
 
 / {
