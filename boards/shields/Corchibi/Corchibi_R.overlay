@@ -48,7 +48,8 @@
     status = "okay";
     device = <&trackball_R>;
     input-processors = 
-        <&zip_xy_scaler 3 1>;
+        // 前回の3倍から1倍（等倍）に変更し、速度を1/3に落としました
+        <&zip_xy_scaler 1 1>;
 };
 
 &i2c0 {
