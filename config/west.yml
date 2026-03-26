@@ -11,7 +11,7 @@ manifest:
   projects:
     - name: zmk-input-processor-report-rate-limit
       remote: badjeff
-      revision: b056cb1~1
+      revision: f43f37aae7aaa7bf0ec4d432683b873a7e3a8efa
     - name: zmk-pointing-acceleration-alpha
       remote: nuovotaka
       revision: main
