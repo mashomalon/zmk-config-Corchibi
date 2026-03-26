@@ -39,8 +39,8 @@
     input-type = <INPUT_EV_REL>;
     codes = <INPUT_REL_X INPUT_REL_Y>;
     sensor-dpi = <1200>;
-    min-factor = <25>;    /* 低速時: 0.025倍 (繊細さを極限まで追求) */
-    max-factor = <70>;    /* 高速時: 0.07倍 (吹っ飛びをさらに抑制) */
+    min-factor = <12>;    /* 前回の半分: 0.012倍。極小の動きをドット単位で。 */
+    max-factor = <35>;    /* 前回の半分: 0.035倍。激しく動かしても非常に静かな移動量。 */
     speed-threshold = <400>; 
     speed-max = <1200>; 
     acceleration-exponent = <1200>; 
