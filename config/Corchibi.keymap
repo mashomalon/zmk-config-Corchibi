@@ -5,24 +5,54 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
+    macros {
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(R) &kp I &kp Z &kp A &kp P &kp N5 &kp N5 &kp N5>;
+            label = "NEW_MACRO";
+        };
+
+        macro_Tab: macro_Tab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LS(LG(LEFT))>;
+            label = "MACRO_TAB";
+        };
+
+        macorokyaputyaj: macorokyaputyaj {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LS(S))>;
+            label = "MACOROKYAPUTYAJ";
+        };
+
+        macro_newfile: macro_newfile {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LS(N))>;
+            label = "MACRO_NEWFILE";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp ESC  &kp TAB  &kp LSHFT  &kp LCTRL  &kp A  &kp Z  &kp LGUI  &kp W  &kp X  &kp LALT  &kp E  &kp D  &kp R  &kp F  &kp V  &mo 1  &kp G  &kp B  &mo 2  &kp N8  &kp Q  &kp S  &kp C  &kp T  &kp SPACE  &kp BSPC  &kp RET  &kp QMARK  &kp RIGHT  &kp COLON  &kp UP  &kp DOWN  &kp O  &kp DOT  &kp RIGHT  &lt 5 I  &kp K  &kp U  &kp J  &kp M  &lt 5 A  &kp H  &kp N  &mo 3  &kp N8  &kp P  &kp L  &kp COMMA  &kp Y  &kp SPACE
+&kp GRAVE  &kp LCTRL  &kp LEFT_SHIFT  &lt 2 C  &kp A  &kp Z  &kp LGUI  &kp W  &kp X  &kp LALT  &kp E  &kp D  &kp R  &kp F  &kp V  &mo 3  &kp G  &kp B  &mo 2  &lt 4 BSPC  &kp Q  &kp S  &kp C  &kp T  &mkp MB1  &kp BSPC  &kp RET  &mt QMARK UNDER  &kp RIGHT  &mt AT_SIGN MINUS  &kp UP  &kp DOWN  &kp O  &mt COLON PERIOD  &kp LEFT  &lt 2 I  &kp K  &kp U  &kp J  &kp M  &kp N4  &kp H  &kp N  &mkp MB1  &kp B  &kp P  &kp L  &mt SEMICOLON COMMA  &kp Y  &lt 2 SPACE
             >;
         };
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_2  &trans  &trans  &kp NUMBER_3  &kp SEMICOLON  &kp NUMBER_4  &kp SLASH  &trans  &trans  &kp MINUS  &trans  &trans  &trans  &kp NUMBER_1  &kp DOUBLE_QUOTES  &trans  &kp NUMBER_5  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_9  &trans  &trans  &kp N8  &kp DOUBLE_QUOTES  &kp NUMBER_7  &kp EQUAL  &trans  &trans  &kp KP_PLUS  &trans  &trans  &trans  &kp NUMBER_0  &kp SQT  &trans  &kp NUMBER_6  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB2  &trans  &mkp MB1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_CONTROL  &macro_Tab  &trans  &macorokyaputyaj  &trans  &trans  &kp DOUBLE_QUOTES  &trans  &trans  &kp HASH  &trans  &kp PERCENT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp EXCLAMATION  &trans  &trans  &kp AMPERSAND  &trans  &kp DEL  &trans  &kp SLASH  &kp NON_US_BACKSLASH  &kp AT_SIGN  &kp COLON  &kp GREATER_THAN  &kp MINUS  &kp SEMICOLON  &kp LESS_THAN  &kp RIGHT_PARENTHESIS  &mkp MB1  &kp LEFT_PARENTHESIS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PIPE  &mkp MB2  &trans  &kp SQT  &trans
             >;
         };
 
@@ -34,13 +64,13 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB3  &trans  &mkp MB1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB2  &trans  &trans  &trans
+&kp ESC  &trans  &macro_Tab  &trans  &kp F4  &kp F7  &trans  &kp F2  &kp F8  &trans  &kp F3  &kp F6  &kp F4  &kp F12  &trans  &trans  &new_macro  &trans  &trans  &trans  &kp F1  &kp F5  &kp F9  &kp F11  &trans  &kp DELETE  &trans  &trans  &macro_Tab  &kp SQT  &trans  &macro_newfile  &kp LEFT_PARENTHESIS  &trans  &trans  &kp N9  &kp NUMBER_6  &kp N8  &kp N5  &kp NUMBER_2  &trans  &kp NUMBER_4  &kp NUMBER_1  &trans  &kp N0  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp NUMBER_3  &kp N7  &trans
             >;
         };
 
-        layer_5 {
+        layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC  &trans  &macro_Tab  &trans  &kp F4  &kp F7  &trans  &kp F2  &kp F8  &trans  &kp F3  &kp F6  &kp F4  &kp F12  &trans  &trans  &new_macro  &trans  &trans  &trans  &kp F1  &kp F5  &kp F9  &kp F11  &trans  &kp DELETE  &trans  &trans  &macro_Tab  &kp SQT  &trans  &macro_newfile  &kp LEFT_PARENTHESIS  &trans  &trans  &kp N9  &kp NUMBER_6  &kp N8  &kp N5  &kp NUMBER_2  &trans  &kp NUMBER_4  &kp NUMBER_1  &trans  &kp N0  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp NUMBER_3  &kp N7  &trans
             >;
         };
     };
