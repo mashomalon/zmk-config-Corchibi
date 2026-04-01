@@ -33,6 +33,13 @@
             bindings = <&kp LC(LS(N))>;
             label = "MACRO_NEWFILE";
         };
+
+        macro_p: macro_p {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(Z) &kp LS(A) &kp LS(Q) &kp EXCL &kp N2 &kp W &kp S &kp X>;
+            label = "MACRO_P";
+        };
     };
 
     keymap {
@@ -40,7 +47,7 @@
 
         default_layer {
             bindings = <
-&kp GRAVE  &kp LCTRL  &kp LEFT_SHIFT  &lt 2 C  &kp A  &kp Z  &kp LGUI  &kp W  &kp X  &kp LALT  &kp E  &kp D  &kp R  &kp F  &kp V  &mo 3  &kp G  &kp B  &mo 2  &lt 4 BSPC  &kp Q  &kp S  &kp C  &kp T  &mkp MB1  &kp BSPC  &kp RET  &mt QMARK UNDER  &kp RIGHT  &mt AT_SIGN MINUS  &kp UP  &kp DOWN  &kp O  &mt COLON PERIOD  &kp LEFT  &lt 2 I  &kp K  &kp U  &kp J  &kp M  &kp N4  &kp H  &kp N  &mkp MB1  &kp B  &kp P  &kp L  &mt SEMICOLON COMMA  &kp Y  &lt 2 SPACE
+&kp GRAVE  &kp LCTRL  &kp LEFT_SHIFT  &lt 2 C  &kp A  &kp Z  &kp LGUI  &kp W  &kp X  &kp LALT  &kp E  &kp D  &kp R  &kp F  &kp V  &mo 3  &kp G  &kp B  &mo 2  &lt 4 BSPC  &kp Q  &kp S  &kp C  &kp T  &mkp MB1  &kp BSPC  &kp RET  &mt QMARK UNDER  &kp RIGHT  &mt AT_SIGN MINUS  &kp UP  &kp DOWN  &kp O  &mt COLON PERIOD  &kp LEFT  &lt 2 I  &kp K  &kp U  &kp J  &kp M  &kp N4  &kp H  &kp N  &lt 4 ENTER  &kp B  &kp P  &kp L  &mt SEMICOLON COMMA  &kp Y  &lt 2 SPACE
             >;
         };
 
@@ -52,7 +59,7 @@
 
         layer_2 {
             bindings = <
-&trans  &kp LEFT_CONTROL  &macro_Tab  &trans  &macorokyaputyaj  &trans  &trans  &kp DOUBLE_QUOTES  &trans  &trans  &kp HASH  &trans  &kp PERCENT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp EXCLAMATION  &trans  &trans  &kp AMPERSAND  &trans  &kp DEL  &trans  &kp SLASH  &kp NON_US_BACKSLASH  &kp AT_SIGN  &kp COLON  &kp GREATER_THAN  &kp MINUS  &kp SEMICOLON  &kp LESS_THAN  &kp RIGHT_PARENTHESIS  &mkp MB1  &kp LEFT_PARENTHESIS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PIPE  &mkp MB2  &trans  &kp SQT  &trans
+&trans  &kp LEFT_CONTROL  &macro_Tab  &trans  &kp F1  &kp F11  &trans  &kp DOUBLE_QUOTES  &kp F12  &trans  &kp HASH  &kp F3  &kp PERCENT  &kp F4  &trans  &trans  &kp F5  &new_macro  &trans  &macro_p  &kp EXCLAMATION  &kp F2  &trans  &kp AMPERSAND  &macorokyaputyaj  &kp DEL  &trans  &kp SLASH  &kp NON_US_BACKSLASH  &kp F10  &kp COLON  &kp GREATER_THAN  &kp MINUS  &kp SEMICOLON  &kp LESS_THAN  &kp RIGHT_PARENTHESIS  &kp F8  &kp LEFT_PARENTHESIS  &kp F7  &trans  &trans  &kp F6  &trans  &macorokyaputyaj  &trans  &kp PIPE  &kp F9  &trans  &kp SQT  &trans
             >;
         };
 
