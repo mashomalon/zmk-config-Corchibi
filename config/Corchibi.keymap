@@ -1,4 +1,3 @@
-
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -28,10 +27,10 @@
             #binding-cells = <0>;
         };
     };
-macros {
+
+    macros {
         new_macro: new_macro {
             compatible = "zmk,behavior-macro";
-
             #binding-cells = <0>;
             bindings = <&kp LS(R) &kp I &kp Z &kp A &kp P &kp N5 &kp N5 &kp N5>;
             label = "NEW_MACRO";
@@ -85,7 +84,7 @@ macros {
 
         default_layer {
             bindings = <
-&kp GRAVE  &kp LCTRL  &kp LEFT_SHIFT  &lt 2 C  &kp A  &kp Z  &kp LGUI  &kp W  &kp X  &kp LALT  &kp E  &kp D  &kp R  &kp F  &kp V  &mo 3  &kp G  &kp B  &mo 2  &lt 4 BSPC  &kp Q  &kp S  &kp C  &kp T  &mkp MB1  &kp BSPC  &kp RET  &mt QMARK UNDER  &kp RIGHT  &mt AT_SIGN MINUS  &kp UP  &kp DOWN  &kp O  &mt COLON PERIOD  &kp LEFT  &lt 2 I  &kp K  &kp U  &kp J  &kp M  &kp N4  &kp H  &kp N  &lt 4 ENTER  &kp B  &kp P  &kp L  &mt SEMICOLON COMMA  &kp Y  &lt 2 SPACE
+&kp GRAVE  &kp LCTRL  &kp LEFT_SHIFT  &lt 2 C  &kp A  &kp Z  &kp LGUI  &kp W  &kp X  &kp LALT  &kp E  &kp D  &kp R  &kp F  &kp V  &mo 3  &kp G  &kp B  &mkp MB2  &lt 4 BSPC  &kp Q  &kp S  &kp C  &kp T  &mkp MB1  &kp BSPC  &kp RET  &mt QMARK UNDER  &kp RIGHT  &mt AT MINUS  &kp UP  &kp DOWN  &kp O  &mt COLON PERIOD  &kp LEFT  &lt 5 I  &kp K  &kp U  &kp J  &kp M  &kp N4  &kp H  &kp N  &lt 4 ENTER  &kp B  &kp P  &kp L  &mt SEMICOLON COMMA  &kp Y  &lt 2 SPACE
             >;
         };
 
@@ -113,13 +112,14 @@ macros {
             >;
         };
 
-        layer_6 {
+        layer_5 {
             bindings = <
-&kp ESC  &trans  &macro_Tab  &trans  &kp F4  &kp F7  &trans  &kp F2  &kp F8  &trans  &kp F3  &kp F6  &kp F4  &kp F12  &trans  &trans  &new_macro  &trans  &trans  &trans  &kp F1  &kp F5  &kp F9  &kp F11  &trans  &kp DELETE  &trans  &trans  &macro_Tab  &kp SQT  &trans  &macro_newfile  &kp LEFT_PARENTHESIS  &trans  &trans  &kp N9  &kp NUMBER_6  &kp N8  &kp N5  &kp NUMBER_2  &trans  &kp NUMBER_4  &kp NUMBER_1  &trans  &kp N0  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp NUMBER_3  &kp N7  &trans
+&kp ESC  &trans  &macro_Tab  &trans  &kp F4  &kp F7  &trans  &kp F2  &kp F8  &trans  &kp F3  &kp F6  &kp F4  &kp F12  &trans  &trans  &new_macro  &trans  &trans  &trans  &kp F1  &kp F5  &kp F9  &kp F11  &trans  &kp DELETE  &trans  &trans  &macro_Tab  &kp SQT  &trans  &macro_newfile  &kp LEFT_PARENTHESIS  &trans  &trans  &kp N9  &mkp MB2  &kp N8  &mkp MB1  &kp NUMBER_2  &trans  &kp NUMBER_4  &kp NUMBER_1  &trans  &kp N0  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp NUMBER_3  &kp N7  &trans
             >;
         };
     };
 };
+
 // force trigger build
 // apply DYA studio fixes
 // fix central role and remove advertising config
