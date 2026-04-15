@@ -28,9 +28,9 @@ layers:
   - '&mkp MB1'
   - BSPC
   - RET
-  - {t: _, h: '?'}
+  - {t: Sft+INTERNATIONAL 1, h: '?'}
   - RIGHT
-  - {t: '-', h: '@'}
+  - {t: '-', h: '['}
   - UP
   - DOWN
   - O
