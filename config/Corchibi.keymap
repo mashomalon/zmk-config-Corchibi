@@ -84,7 +84,7 @@
 
         default_layer {
             bindings = <
-&kp GRAVE  &kp LCTRL  &kp LEFT_SHIFT  &lt 2 C  &kp A  &kp Z  &kp LGUI  &kp W  &kp X  &kp LALT  &kp E  &kp D  &kp R  &kp F  &kp V  &mo 5  &kp G  &kp B  &mkp MB2  &lt 1 BSPC  &kp Q  &kp S  &kp C  &kp T  &mkp MB1  &kp BSPC  &kp RET  &mt QMARK UNDER  &kp RIGHT  &mt AT MINUS  &kp UP  &kp DOWN  &kp O  &mt COLON PERIOD  &kp LEFT  &lt 5 I  &kp K  &kp U  &kp J  &kp M  &TB1_mouse  &kp H  &kp N  &lt 1 GRAVE  &kp B  &kp P  &kp L  &mt SEMICOLON COMMA  &kp Y  &lt 2 SPACE
+&kp GRAVE  &kp LCTRL  &kp LEFT_SHIFT  &lt 2 C  &kp A  &kp Z  &kp LGUI  &kp W  &kp X  &kp LALT  &kp E  &kp D  &kp R  &kp F  &kp V  &mo 5  &kp G  &kp B  &mkp MB2  &lt 1 BSPC  &kp Q  &kp S  &kp C  &kp T  &mkp MB1  &kp BSPC  &kp RET  &mt QMARK LS(INTERNATIONAL_1)  &kp RIGHT  &mt LBKT MINUS  &kp UP  &kp DOWN  &kp O  &mt COLON PERIOD  &kp LEFT  &lt 5 I  &kp K  &kp U  &kp J  &kp M  &TB1_mouse  &kp H  &kp N  &lt 1 GRAVE  &kp B  &kp P  &kp L  &mt SEMICOLON COMMA  &kp Y  &lt 2 SPACE
             >;
         };
 
