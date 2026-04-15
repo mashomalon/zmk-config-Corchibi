@@ -16,11 +16,11 @@ layers:
   - R
   - F
   - V
-  - '3'
+  - '5'
   - G
   - B
   - '&mkp MB2'
-  - {t: BSPC, h: '4'}
+  - {t: BSPC, h: '1'}
   - Q
   - S
   - C
@@ -44,7 +44,7 @@ layers:
   - '4'
   - H
   - N
-  - {t: ENTER, h: '4'}
+  - {t: '`', h: '1'}
   - B
   - P
   - L
@@ -52,159 +52,6 @@ layers:
   - Y
   - {t: SPACE, h: '2'}
   '1':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB2'
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '2':
-  - {t: ▽, type: trans}
-  - LEFT CONTROL
-  - '&macro_Tab'
-  - {type: held}
-  - F1
-  - F11
-  - {t: ▽, type: trans}
-  - '"'
-  - F12
-  - {t: ▽, type: trans}
-  - '#'
-  - F3
-  - '%'
-  - F4
-  - '&macro_pZA'
-  - {t: ▽, type: trans}
-  - F5
-  - '&macro_psakura'
-  - {t: ▽, type: trans}
-  - '&new_macro'
-  - '!'
-  - F2
-  - {t: ▽, type: trans}
-  - '&'
-  - '&macorokyaputyaj'
-  - DEL
-  - {t: ▽, type: trans}
-  - /
-  - \
-  - F10
-  - ':'
-  - '>'
-  - '-'
-  - ;
-  - <
-  - )
-  - F8
-  - (
-  - F7
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F6
-  - {t: ▽, type: trans}
-  - '&macorokyaputyaj'
-  - {t: ▽, type: trans}
-  - '|'
-  - F9
-  - {t: ▽, type: trans}
-  - ''''
-  - {t: ▽, type: trans}
-  '3':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BT CLR
-  - {t: ▽, type: trans}
-  '4':
   - ESC
   - {t: ▽, type: trans}
   - '&macro_Tab'
@@ -255,6 +102,159 @@ layers:
   - '3'
   - '7'
   - {t: ▽, type: trans}
+  '2':
+  - {t: ▽, type: trans}
+  - LEFT CONTROL
+  - Sft+Gui+LEFT ARROW
+  - {type: held}
+  - F1
+  - F11
+  - {t: ▽, type: trans}
+  - '"'
+  - F12
+  - {t: ▽, type: trans}
+  - '#'
+  - F3
+  - '%'
+  - F4
+  - '&macro_pZA'
+  - {t: ▽, type: trans}
+  - F5
+  - '&macro_psakura'
+  - {t: ▽, type: trans}
+  - '&new_macro'
+  - '!'
+  - F2
+  - {t: ▽, type: trans}
+  - '&'
+  - '&macorokyaputyaj'
+  - DEL
+  - {t: ▽, type: trans}
+  - /
+  - \
+  - F10
+  - ':'
+  - '>'
+  - '-'
+  - ;
+  - <
+  - )
+  - F8
+  - (
+  - F7
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F6
+  - {t: ▽, type: trans}
+  - Sft+Gui+S
+  - {t: ▽, type: trans}
+  - '|'
+  - F9
+  - {t: ▽, type: trans}
+  - ''''
+  - {t: ▽, type: trans}
+  '3':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR
+  - {t: ▽, type: trans}
+  '4':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   '5':
   - ESC
   - {t: ▽, type: trans}
@@ -271,7 +271,7 @@ layers:
   - F4
   - F12
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - '&new_macro'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -291,7 +291,7 @@ layers:
   - (
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '9', type: held}
+  - '9'
   - '&mkp MB2'
   - '8'
   - '&mkp MB1'
