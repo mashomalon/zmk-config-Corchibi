@@ -84,37 +84,37 @@
 
         default_layer {
             bindings = <
-&kp GRAVE  &kp LCTRL  &kp LEFT_SHIFT  &lt 2 C  &kp A  &kp Z  &kp LGUI  &kp W  &kp X  &kp LALT  &kp E  &kp D  &kp R  &kp F  &kp V  &mo 5  &kp G  &kp B  &mkp MB2  &lt 1 BSPC  &kp Q  &kp S  &kp C  &kp T  &mkp MB1  &kp BSPC  &kp RET  &mt QMARK UNDER  &kp RIGHT  &mt AT MINUS  &kp UP  &kp DOWN  &kp O  &mt COLON PERIOD  &kp LEFT  &lt 5 I  &kp K  &kp U  &kp J  &kp M  &kp N4  &kp H  &kp N  &lt 1 GRAVE  &kp B  &kp P  &kp L  &mt SEMICOLON COMMA  &kp Y  &lt 2 SPACE
+&kp GRAVE  &kp LCTRL  &kp LEFT_SHIFT  &lt 2 C  &kp A  &kp Z  &kp LGUI  &kp W  &kp X  &kp LALT  &kp E  &kp D  &kp R  &kp F  &kp V  &mo 5  &kp G  &kp B  &mkp MB2  &lt 1 BSPC  &kp Q  &kp S  &kp C  &kp T  &mkp MB1  &kp BSPC  &kp RET  &mt QMARK UNDER  &kp RIGHT  &mt AT MINUS  &kp UP  &kp DOWN  &kp O  &mt COLON PERIOD  &kp LEFT  &lt 5 I  &kp K  &kp U  &kp J  &kp M  &TB1_mouse  &kp H  &kp N  &lt 1 GRAVE  &kp B  &kp P  &kp L  &mt SEMICOLON COMMA  &kp Y  &lt 2 SPACE
             >;
         };
 
         layer_1 {
             bindings = <
-&kp ESC  &trans  &macro_Tab  &trans  &kp F4  &kp F7  &trans  &kp F2  &kp F8  &trans  &kp F3  &kp F6  &kp F4  &kp F12  &trans  &trans  &new_macro  &trans  &trans  &trans  &kp F1  &kp F5  &kp F9  &kp F11  &trans  &kp DELETE  &trans  &trans  &macro_Tab  &kp SQT  &trans  &macro_newfile  &kp LEFT_PARENTHESIS  &trans  &trans  &kp N9  &kp NUMBER_6  &kp N8  &kp N5  &kp NUMBER_2  &trans  &kp NUMBER_4  &kp NUMBER_1  &trans  &kp N0  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp NUMBER_3  &kp N7  &trans
+&kp ESC  &trans  &macro_Tab  &trans  &kp F4  &kp F7  &trans  &kp F2  &kp F8  &trans  &kp F3  &kp F6  &kp F4  &kp F12  &trans  &trans  &new_macro  &trans  &trans  &trans  &kp F1  &kp F5  &kp F9  &kp F11  &trans  &kp DELETE  &trans  &trans  &macro_Tab  &kp SQT  &trans  &macro_newfile  &kp LEFT_PARENTHESIS  &trans  &trans  &kp N9  &kp NUMBER_6  &kp N8  &kp N5  &kp NUMBER_2  &TB1_mouse  &kp NUMBER_4  &kp NUMBER_1  &trans  &kp N0  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp NUMBER_3  &kp N7  &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &kp LEFT_CONTROL  &kp LS(LG(LEFT_ARROW))  &trans  &kp F1  &kp F11  &trans  &kp DOUBLE_QUOTES  &kp F12  &trans  &kp HASH  &kp F3  &kp PERCENT  &kp F4  &macro_pZA  &trans  &kp F5  &macro_psakura  &trans  &new_macro  &kp EXCLAMATION  &kp F2  &trans  &kp AMPERSAND  &macorokyaputyaj  &kp DEL  &trans  &kp SLASH  &kp NON_US_BACKSLASH  &kp F10  &kp COLON  &kp GREATER_THAN  &kp MINUS  &kp SEMICOLON  &kp LESS_THAN  &kp RIGHT_PARENTHESIS  &kp F8  &kp LEFT_PARENTHESIS  &kp F7  &trans  &trans  &kp F6  &trans  &kp LS(LG(S))  &trans  &kp PIPE  &kp F9  &trans  &kp SQT  &trans
+&trans  &kp LEFT_CONTROL  &kp LS(LG(LEFT_ARROW))  &trans  &kp F1  &kp F11  &trans  &kp DOUBLE_QUOTES  &kp F12  &trans  &kp HASH  &kp F3  &kp PERCENT  &kp F4  &macro_pZA  &trans  &kp F5  &macro_psakura  &trans  &new_macro  &kp EXCLAMATION  &kp F2  &trans  &kp AMPERSAND  &macorokyaputyaj  &kp DEL  &trans  &kp SLASH  &kp NON_US_BACKSLASH  &kp F10  &kp COLON  &kp GREATER_THAN  &kp MINUS  &kp SEMICOLON  &kp LESS_THAN  &kp RIGHT_PARENTHESIS  &kp F8  &kp LEFT_PARENTHESIS  &kp F7  &trans  &TB1_mouse  &kp F6  &trans  &kp LS(LG(S))  &trans  &kp PIPE  &kp F9  &trans  &kp SQT  &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &TB1_mouse  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR  &trans
             >;
         };
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB2  &trans  &mkp MB1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB2  &trans  &mkp MB1  &trans  &TB1_mouse  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_5 {
             bindings = <
-&kp ESC  &trans  &macro_Tab  &trans  &kp F4  &kp F7  &trans  &kp F2  &kp F8  &trans  &kp F3  &kp F6  &kp F4  &kp F12  &trans  &trans  &new_macro  &trans  &trans  &trans  &kp F1  &kp F5  &kp F9  &kp F11  &trans  &kp DELETE  &trans  &trans  &macro_Tab  &kp SQT  &trans  &macro_newfile  &kp LEFT_PARENTHESIS  &trans  &trans  &kp N9  &mkp MB2  &kp N8  &mkp MB1  &kp NUMBER_2  &trans  &kp NUMBER_4  &kp NUMBER_1  &trans  &kp N0  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp NUMBER_3  &kp N7  &trans
+&kp ESC  &trans  &macro_Tab  &trans  &kp F4  &kp F7  &trans  &kp F2  &kp F8  &trans  &kp F3  &kp F6  &kp F4  &kp F12  &trans  &trans  &new_macro  &trans  &trans  &trans  &kp F1  &kp F5  &kp F9  &kp F11  &trans  &kp DELETE  &trans  &trans  &macro_Tab  &kp SQT  &trans  &macro_newfile  &kp LEFT_PARENTHESIS  &trans  &trans  &kp N9  &mkp MB2  &kp N8  &mkp MB1  &kp NUMBER_2  &TB1_mouse  &kp NUMBER_4  &kp NUMBER_1  &trans  &kp N0  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp NUMBER_3  &kp N7  &trans
             >;
         };
     };
