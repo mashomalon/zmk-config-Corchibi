@@ -41,7 +41,7 @@ layers:
   - U
   - J
   - M
-  - '4'
+  - {t: $$trackball_19mm$$, h: Mouse}
   - H
   - N
   - {t: '`', h: '1'}
@@ -92,7 +92,7 @@ layers:
   - '8'
   - '5'
   - '2'
-  - {t: ▽, type: trans}
+  - {t: $$trackball_19mm$$, h: Mouse}
   - '4'
   - '1'
   - {t: ▽, type: trans}
@@ -143,7 +143,7 @@ layers:
   - (
   - F7
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: $$trackball_19mm$$, h: Mouse}
   - F6
   - {t: ▽, type: trans}
   - Sft+Gui+S
@@ -194,7 +194,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: $$trackball_19mm$$, h: Mouse}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -245,7 +245,7 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB1'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: $$trackball_19mm$$, h: Mouse}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -296,7 +296,7 @@ layers:
   - '8'
   - '&mkp MB1'
   - '2'
-  - {t: ▽, type: trans}
+  - {t: $$trackball_19mm$$, h: Mouse}
   - '4'
   - '1'
   - {t: ▽, type: trans}
