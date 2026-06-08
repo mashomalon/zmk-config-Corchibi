@@ -16,7 +16,7 @@ layers:
   - R
   - F
   - V
-  - '5'
+  - {t: BACKSPACE, h: '5'}
   - G
   - B
   - '&mkp MB2'
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - '&macro_newfile'
   - (
-  - {t: ▽, type: trans}
+  - /
   - {t: ▽, type: trans}
   - '9'
   - '6'
@@ -299,10 +299,10 @@ layers:
   - {t: $$trackball_19mm$$, h: Mouse}
   - '4'
   - '1'
-  - {t: ▽, type: trans}
+  - '&mkp MB2'
   - '0'
   - )
   - '"'
   - '3'
   - '7'
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
