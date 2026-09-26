@@ -39,7 +39,7 @@
         macro_Tab: macro_Tab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LS(LG(LEFT))>;
+            bindings = <&kp LS(LG(LEFT))>;
             label = "MACRO_TAB";
         };
 
