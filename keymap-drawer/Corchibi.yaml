@@ -28,7 +28,7 @@ layers:
   - '&mkp MB1'
   - BSPC
   - RET
-  - {t: Sft+INTERNATIONAL 1, h: '?'}
+  - {t: Sft+INTERNATIONAL 1, h: (QMARK)}
   - RIGHT
   - {t: '-', h: '['}
   - UP
@@ -103,7 +103,7 @@ layers:
   - '7'
   - {t: ▽, type: trans}
   '2':
-  - {t: ▽, type: trans}
+  - Z
   - LEFT CONTROL
   - Sft+Gui+LEFT ARROW
   - {type: held}
