@@ -20,7 +20,7 @@ manifest:
       revision: main
     - name: zmk-pointing-acceleration-alpha
       remote: nuovotaka
-      revision: main
+      revision: 780dfcd6b796063367893ff41e233773e12fb07c
     - name: zmk
       remote: zmkfirmware
       revision: 354cff9
